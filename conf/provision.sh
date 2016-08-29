@@ -7,6 +7,11 @@ MYSQL_ROOT_PASS='pass'
 HOME=/home/vagrant
 cd ~
 
+export LANG="en_US.utf8"
+export LANGUAGE="en_US.utf8"
+export LC_ALL="en_US.utf8"
+source ~/.bashrc
+
 apt-get update
 apt-get upgrade -y
 
